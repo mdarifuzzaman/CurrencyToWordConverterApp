@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConverterComponent implements OnInit {
 
-  isOutputFound:false;
+  isOutputFound:boolean = false;
   model:any = {name: '', currency: ''};
   outputModel:any = {};
 
