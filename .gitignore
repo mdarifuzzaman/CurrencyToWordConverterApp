@@ -8,3 +8,6 @@
 /CurrencyConverterApp/Converter.Core/obj
 /CurrencyConverterApp/CurrencyConverterApp/bin/Debug/netcoreapp2.0
 /CurrencyConverterApp/CurrencyConverterApp/obj
+/CurrencyConverterApp/Converter.Core.Tests/bin/Debug
+/CurrencyConverterApp/Converter.Core.Tests/obj/Debug
+/CurrencyConverterApp/packages

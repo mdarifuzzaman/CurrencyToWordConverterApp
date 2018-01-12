@@ -105,6 +105,11 @@ namespace Converter.Core.Contracts
                 number %= 100;
             }
 
+            if (number > 0 && !string.IsNullOrWhiteSpace(words))
+            {
+                words += "and";
+            }
+
             words = SmallNumberToWord(number, words);
 
             return words;
