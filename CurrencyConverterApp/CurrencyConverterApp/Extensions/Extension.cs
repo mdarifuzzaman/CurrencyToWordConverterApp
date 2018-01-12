@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace CurrencyConverterService.Extensions
+﻿namespace CurrencyConverterService.Extensions
 {
     public static class Extension
     {
