@@ -26,7 +26,9 @@ That is enough to start with our angular client. Please see "https://angular.io/
 
 Step3: Navigate to the folder: "App\ConverterApp" from windows explorer and open command prompt here.
 Step4: run these commands one by one:
+
 >> npm install (It will take a bit to download all necessary modules)
+
 >> ng serve --open (It will build the client and automatically open the browser)
 
 Now you should see the client UI. I have added proper validation in client. It will only allows for the valid input.
