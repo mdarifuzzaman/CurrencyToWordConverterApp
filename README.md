@@ -4,7 +4,9 @@ Application is intended to do a currency to word converter.
 
 # Development tech stack:
 API: i have used VS 2017 (dotnetcore) in order to develop the service api.
+
 Client: A small angular 4 based client with the help of bootstrap css
+
 Test: Microsoft test framework
 
 # How to run the solution
