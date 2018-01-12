@@ -14,6 +14,7 @@ Test: Microsoft test framework
 ## Web API:
 
 Step 1: Open solution (CurrencyConverterApp.sln) using visual studio 2017 and Right click and solution and click "Restore nuget packages".
+
 Step 2: Hit F5 (Or right click the CurrencyConverterService project and debug -> start new instance)
 You should see a brower with a UI says that "Currency to word converter service is running".
 (Note, for any problem, please install dontnetcore runtime. By default vs 2017 supports dotnetcore though)
@@ -21,10 +22,12 @@ You should see a brower with a UI says that "Currency to word converter service 
 ## Client:
 
 Step1: Need to setup the environment for angular 4. Please install node from (https://nodejs.org/en/download/)
+
 Step2: After installing node, open your command prompt and run "npm install -g @angular/cli"
 That is enough to start with our angular client. Please see "https://angular.io/guide/quickstart" for any further details
 
 Step3: Navigate to the folder: "App\ConverterApp" from windows explorer and open command prompt here.
+
 Step4: run these commands one by one:
 
 >> npm install (It will take a bit to download all necessary modules)
