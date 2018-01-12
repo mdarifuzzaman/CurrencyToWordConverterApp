@@ -3,7 +3,7 @@
     <div class="row main">
       <div class="main-login main-center">
         <h5>Currency Convert to Word App</h5>
-        <form class="" (ngSubmit) = "convert()">
+        <form class="" [formGroup] = "form" (ngSubmit) = "convert()">
 
           <div class="form-group">
             <label for="name" class="cols-sm-2 control-label">Your Name</label>
@@ -12,7 +12,7 @@
                 <span class="input-group-addon">
                   <i class="fa fa-user fa" aria-hidden="true"></i>
                 </span>
-                <input type="text" class="form-control" name="name" id="name" placeholder="Enter your Name" [(ngModel)] = "model.name" required/>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Enter your Name" formControlName="name"/>
               </div>
             </div>
           </div>
@@ -24,13 +24,13 @@
                 <span class="input-group-addon">
                   <i class="fa fa-envelope fa" aria-hidden="true"></i>
                 </span>
-                <input type="text" class="form-control" name="currency" id="currency" placeholder="Enter Currency (ex: 123.33)" [(ngModel)] = "model.currency" required/>
+                <input type="text" class="form-control" name="currency" id="currency" placeholder="Enter Currency (ex: 123.33)" formControlName="currency"/>
               </div>
             </div>
           </div>
 
-          <div class="form-group ">
-            <a type="button" id="button" class="btn btn-primary btn-lg btn-block login-button" (click)="convert()">Convert To Word</a>
+          <div class="form-group ">            
+            <input type="submit" [disabled]="!form.valid" class="btn btn-primary btn-lg btn-block login-button" value="Convert To Word">
           </div>
 
         </form>

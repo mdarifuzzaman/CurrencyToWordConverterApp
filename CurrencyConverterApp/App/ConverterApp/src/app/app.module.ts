@@ -16,7 +16,8 @@ import { HttpModule, Http } from '@angular/http';
   imports: [
     BrowserModule,
     HttpModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [HttpUtilityService],
   bootstrap: [AppComponent]
